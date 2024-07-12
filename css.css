@@ -1,7 +1,12 @@
 body {
 	margin-left: 10%;
 	margin-right: 10%;
+	font-family: Helvetica;
+	font-size: 13pt;
 }
 mono {
-	font-family: 'Courier';
+	font-family: Courier, monospace;
+}
+li {
+	margin-top: 10px;
 }
