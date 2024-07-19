@@ -7,6 +7,10 @@ body {
 mono {
 	font-family: Courier, monospace;
 }
+monob {
+	font-family: Courier, monospace;
+	font-weight: bold;
+}
 li {
 	margin-top: 10px;
 }
