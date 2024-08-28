@@ -14,3 +14,9 @@ monob {
 li {
 	margin-top: 10px;
 }
+.versionslist {
+	list-style-type: "v ";
+}
+.dashedlist {
+	list-style-type: "- ";
+}
