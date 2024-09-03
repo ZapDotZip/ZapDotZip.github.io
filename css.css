@@ -13,9 +13,7 @@ monob {
 	font-weight: bold;
 }
 
-li {
-	margin-top: 10px;
-}
+
 
 a:link {
 	color: green;
@@ -37,9 +35,17 @@ h1 a:hover {
 	text-decoration: underline;
 }
 
-.versionslist {
-	list-style-type: none;
+
+td {
+	vertical-align: baseline;
 }
-.dashedlist {
-	list-style-type: "- ";
+
+td li {
+	margin-top: 10px;
+}
+
+td ul {
+	list-style-type: " - ";
+	padding-left: 0;
+	list-style-position: inside;
 }
