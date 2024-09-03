@@ -1,9 +1,10 @@
 body {
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	font-size: 13pt;
 }
+
 mono {
 	font-family: Courier, monospace;
 }
@@ -11,11 +12,33 @@ monob {
 	font-family: Courier, monospace;
 	font-weight: bold;
 }
+
 li {
 	margin-top: 10px;
 }
+
+a:link {
+	color: green;
+}
+a:visited {
+	color: darkblue;
+}
+
+h1 a {
+	color: inherit;
+	text-decoration: inherit;
+}
+h1 a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+h1 a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
 .versionslist {
-	list-style-type: "v ";
+	list-style-type: none;
 }
 .dashedlist {
 	list-style-type: "- ";
